@@ -1,0 +1,29 @@
+.cont_banner{
+    height: 100vh;
+    background-attachment: fixed; /*la imagen de fondo se queda fija*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*tamaño original de la imagen*/
+    background-image: url("../img/office.jpg");
+}
+.sombra{
+    position: absolute;/*es flotante, no tiene una posición en particular*/
+    left:50%;
+    top: 15%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
+    padding: 20px;/*el contenido va a estar separado de los bordes del contenedor 20px*/
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /*sombreado con transparencia*/
+    color: white;
+    margin: auto;
+}
+.sombra hr{
+    border-top: 1px solid #fff;
+}
+.sombra h2{
+    font-size: 5vw;
+    margin-bottom: 10px;
+}
