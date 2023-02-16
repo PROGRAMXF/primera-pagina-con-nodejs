@@ -6,3 +6,10 @@
 body{
     font-family: 'Cormorant Garamond', serif;
 }
+.programxf_navbar{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+.programxf_navbar div, .programxf_navbar ul{
+    background-color: transparent !important;
+
+}
