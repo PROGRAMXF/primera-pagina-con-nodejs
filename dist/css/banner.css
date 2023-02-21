@@ -70,3 +70,21 @@
     animation-fill-mode: forwards;
     animation-delay: 1s;
 }
+.cont_banner_set_3{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/dist/img/av2.jpg");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+}
+.cont_banner_set_3 .row{
+    background-color: rgba(1, 1, 1, 0.6);
+    color: #fff;
+    padding: 2%;
+}
