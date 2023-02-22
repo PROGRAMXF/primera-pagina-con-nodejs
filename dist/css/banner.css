@@ -70,7 +70,7 @@
     animation-fill-mode: forwards;
     animation-delay: 1s;
 }
-.cont_banner_set_3{
+.cont_banner_sec_3{
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -83,8 +83,11 @@
     margin-bottom: 100px;
     
 }
-.cont_banner_set_3 .row{
+.cont_banner_sec_3 .row{
     background-color: rgba(1, 1, 1, 0.6);
     color: #fff;
     padding: 2%;
+}
+.cont_img{
+    padding: 5%;
 }
