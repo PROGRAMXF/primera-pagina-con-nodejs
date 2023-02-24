@@ -25,3 +25,17 @@ body{
 .cont_sec_1 hr{
     border-top: 1px solid rgba(1, 1, 1, 0.8);
 }
+.cont_footer{
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 10%;
+    color: #fff;
+    margin-top: 100px;
+}
+.cont_footer a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.cont_img_footer{
+    padding: 5%;
+}
