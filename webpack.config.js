@@ -14,12 +14,12 @@ module.exports = {
     module: {
         rules: [
             {
-            test:/\.css$/,
+            test:/.css$/,
             use:['style-loader', 'css-loader']
             }
         ]
     },
-    plugin:[
+    plugins:[
         new htmlwebpackplugin({
             template:"./src/cliente/index.html"
         })
