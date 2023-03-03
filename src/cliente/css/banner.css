@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /*tamaño original de la imagen*/
-    background-image: url("../img/office.jpg");
+    background-image: url("/stsatic/img/office.jpg");
 }
 .sombra{
     position: absolute;/*es flotante, no tiene una posición en particular*/
@@ -76,7 +76,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/dist/img/av2.jpg");
+    background-image: url("/static/img/av2.jpg");
     position: relative;
     padding: 10%;
     margin-top: 200px;
